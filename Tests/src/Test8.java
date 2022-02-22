@@ -10,7 +10,7 @@ abstract class Animal {
     }
 }
 
-class Dog extends Animal {
+class Dog extends Pet {
     private String breed;
 
 
@@ -29,7 +29,7 @@ class Dog extends Animal {
     }
 }
 
-class Cat extends Animal{
+class Cat extends Pet {
 
 }
 
@@ -37,7 +37,7 @@ public class Test8 {
     public static void main(String[] args) {
 
 
-        Animal dog1 = null;
+        Pet dog1 = null;
         Dog dog2 = (Dog)dog1;
         Cat cat = (Cat)dog1;
 
